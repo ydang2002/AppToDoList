@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background_design"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    tools:context=".RegistrationActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/LoginToolbar"
@@ -24,7 +24,7 @@
         android:layout_gravity="center"/>
 
     <EditText
-        android:id="@+id/loginEmail"
+        android:id="@+id/loginRegistrationEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email"
@@ -40,7 +40,7 @@
         android:padding="10dp"/>
 
     <EditText
-        android:id="@+id/loginPassword"
+        android:id="@+id/loginRegistrationPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
@@ -54,18 +54,18 @@
         android:padding="10dp"/>
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/RegistrationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="#fff"
-        android:text="Login"
+        android:text="Register"
         android:textAllCaps="false"
         android:textColor="#000"
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/loginPageQuestion"
+        android:id="@+id/RegistrationPageQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Don't have account ?, Register "
@@ -73,4 +73,5 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginTop="10dp"/>
+
 </LinearLayout>
