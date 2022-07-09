@@ -9,7 +9,7 @@
     tools:context=".RegistrationActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/LoginToolbar"
+        android:id="@+id/RegistrationToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
@@ -24,7 +24,7 @@
         android:layout_gravity="center"/>
 
     <EditText
-        android:id="@+id/loginRegistrationEmail"
+        android:id="@+id/RegistrationEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email"
@@ -40,7 +40,7 @@
         android:padding="10dp"/>
 
     <EditText
-        android:id="@+id/loginRegistrationPassword"
+        android:id="@+id/RegistrationPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"
