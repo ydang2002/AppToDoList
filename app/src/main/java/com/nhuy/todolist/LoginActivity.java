@@ -48,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn = findViewById(R.id.loginButton);
         loginQn = findViewById(R.id.loginPageQuestion);
 
+        //xử lí sự kiện khi nhấn chọn "Don't have account ?, Register" chuyển đổi qua lại giữa LoginActivity và RegistrationActivity
         loginQn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,6 +58,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        //Xử lí sự kiện cho Button Login
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

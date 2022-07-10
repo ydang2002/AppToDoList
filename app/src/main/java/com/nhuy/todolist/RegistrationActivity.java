@@ -47,6 +47,7 @@ public class RegistrationActivity extends AppCompatActivity {
         regBtn = findViewById(R.id.RegistrationButton);
         regQn = findViewById(R.id.RegistrationPageQuestion);
 
+        //xử lí sự kiện khi nhấn chọn "Don't have account ?, Register" chuyển đổi qua lại giữa LoginActivity và RegistrationActivity
         regQn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,6 +56,7 @@ public class RegistrationActivity extends AppCompatActivity {
             }
         });
 
+        // Sử lí sự kiện cho Button register
         regBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
