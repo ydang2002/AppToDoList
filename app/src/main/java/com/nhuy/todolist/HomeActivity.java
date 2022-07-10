@@ -132,7 +132,7 @@ public class HomeActivity extends AppCompatActivity {
                                 loader.dismiss();
                             } else {
                                 String error = task.getException().toString();
-                                Toast.makeText(HomeActivity.this, "Error: "+ error, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeActivity.this, "Failed: "+ error, Toast.LENGTH_SHORT).show();
                                 loader.dismiss();
                             }
                         }
